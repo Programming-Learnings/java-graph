@@ -20,6 +20,7 @@ class Graph {
     void BFS(int s) {
         boolean visited[] = new boolean[V];
 
+        // Queue is used in bsf to traverse the nodes
         LinkedList<Integer> queue = new LinkedList<Integer>();
 
         visited[s] = true;
